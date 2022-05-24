@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <form action="" name="Calculator">
+            
+            <input class="text maincolor" type="text"  name="text1" disabled>
+            <input class="text1 maincolor" type="text"  name="text12" value="C" onclick="location.reload()"><br>
+
+            <input class="num maincolor" type="button"  name="btn9" value="9" onclick="displaynum(btn9.value)">
+            <input class="num maincolor" type="button"  name="btn8" value="8" onclick="displaynum(btn8.value)">
+            <input class="num maincolor" type="button"  name="btn7" value="7" onclick="displaynum(btn7.value)">
+            <input class="num operator" type="button"  name="addbtn" value="+" onclick="displaynum(addbtn.value)"><br>
+
+            <input class="num maincolor" type="button"  name="btn6" value="6" onclick="displaynum(btn6.value)">
+            <input class="num maincolor" type="button"  name="btn5" value="5" onclick="displaynum(btn5.value)">
+            <input class="num maincolor" type="button"  name="btn4" value="4" onclick="displaynum(btn4.value)">
+            <input class="num operator" type="button"  name="subbtn" value="-" onclick="displaynum(subbtn.value)"><br>
+
+            <input class="num maincolor" type="button"  name="btn3" value="3" onclick="displaynum(btn3.value)">
+            <input class="num maincolor" type="button"  name="btn2" value="2" onclick="displaynum(btn2.value)">
+            <input class="num maincolor" type="button"  name="btn1" value="1" onclick="displaynum(btn1.value)">
+            <input class="num operator" type="button"  name="mulbtn" value="*" onclick="displaynum(mulbtn.value)"><br>
+
+            <input class="num maincolor" type="button"  name="dot" value="." onclick="displaynum(dot.value)">
+            <input class="num maincolor" type="button"  name="btn0" value="0" onclick="displaynum(btn0.value)">
+            <input class="num eql" type="button"  name="eqlbtn" value="=" onclick="text1.value=eval(text1.value)">
+            <input class="num operator" type="button"  name="btndiv" value="/" onclick="displaynum(btndiv.value)"><br>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
