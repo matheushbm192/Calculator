@@ -6,9 +6,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
-
+form {
+    background-color: rgb(4,2,55);
+    padding: 10px;
+    border-radius:20px;
+    position: relative;
+    
+}
 input {
     color: bisque;
     
@@ -37,11 +44,14 @@ input {
   margin-bottom: 12px;  
 }
 .text1 {
-    width: 24px;
-    height: 26px;
+    position: relative;
+    top: 7px;
+    width: 64px;
+    height: 60px;
     border-radius: 22px;
     text-align: center;
-    margin-bottom: 12px;
+    margin-bottom: 1px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -49,12 +59,15 @@ input {
     display: inline-block;
 }
 .maincolor {
-    background-color: black;
+    background-color: rgb(3,142,209);
+    border: none;
+    margin-top: 2px;
 }
 .operator {
    background-color: rosybrown;
-    
+   border: none;
 }
 .eql {
     background-color: orangered;
+    border: none;
 }
